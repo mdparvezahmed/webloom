@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- flex box -->
+    <div class="flex flex-row justify-centerk space-x-6 mt-2">
+        <div class="h-16 w-16 rounded-full bg-blue-500"></div>
+        <div class="h-16 w-16 rounded-full bg-orange-500"></div>
+        <div class="h-16 w-16 rounded-full bg-red-500"></div>
+    </div>
+    <!-- gird -->
+    <div class="grid grid-cols-2 gap-2 mt-2 mx-2">
+        <div class="h-16 rounded-full bg-blue-500"></div>
+        <div class="h-16 rounded-full bg-orange-500"></div>
+        <div class="h-16 rounded-full bg-red-500"></div>
+    </div>
+
+    <div class="md:block hidden">
+        <p class="text-white">I appear on screen wider n screen than 768px</p>
+    </div>
+    <div class="max-sm:bd-amber-500 max-md:bg-amber-700">
+        <p class="text-white">I appear on screen wider n screen than 768px</p>
+    </div>
+
+
+    <div class="bg-white text-black dark:bg-black dark:text-white">
+        dark mode
+    </div>
+
+    <P class="p-[16px] text-[30px] text-[#79230e]">CUSTOM COLOR</P>
+
+
+</body>
+
+
+</html>
